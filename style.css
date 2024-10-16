@@ -1,0 +1,123 @@
+/* body {
+  background-color: gray;
+} */
+
+.profile img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: block;
+  margin: 50px auto;
+}
+
+.cust-navbar {
+  background: rgba(255, 255, 255, 0.2);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.navbar-nav {
+  font-family: "Ovo", serif;
+}
+
+.home h3 {
+  font-family: "Ovo", serif;
+}
+
+.home h1 {
+  font-size: 70px;
+  font-family: "Ovo", serif;
+}
+
+.home p {
+  font-family: "Ovo", serif;
+}
+
+.home h3 img {
+  vertical-align: bottom;
+}
+
+.about h2 {
+  font-size: 50px;
+  font-family: "Ovo", serif;
+}
+
+.about img {
+  border-radius: 20px;
+}
+
+.about p {
+  font-family: "Ovo", serif;
+}
+.about h5 {
+  font-family: "Ovo", serif;
+}
+
+.card {
+  transition: box-shadow 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.card h5 {
+  font-family: "Ovo", serif;
+}
+
+.projects h2 {
+  font-family: "Ovo", serif;
+  font-size: 50px;
+}
+
+.projects p {
+  font-family: "Ovo", serif;
+}
+
+.projects h5 {
+  font-family: "Ovo", serif;
+}
+
+.head h2 {
+  font-family: "Ovo", serif;
+  font-size: 50px;
+}
+.head p {
+  font-family: "Ovo", serif;
+}
+
+.see {
+  font-family: "Ovo", serif;
+}
+
+.contact img {
+  width: 40px;
+}
+
+.footer {
+  font-family: "Ovo", serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand img {
+    text-align: left;
+    margin: left 0;
+  }
+
+  .about {
+    text-align: center;
+  }
+  .about img {
+    margin-top: 20px;
+  }
+  .about p {
+    margin-top: 30px;
+  }
+
+  .about .card {
+    margin-left: 90px;
+    margin-top: 30px;
+  }
+}
